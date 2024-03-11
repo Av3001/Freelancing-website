@@ -19,7 +19,7 @@ const HeroSection = () => {
             </h1>
             <p className="mt-8 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">    
             Welcome to a World of Endless Opportunities!
-            Unlock your potential and join our thriving community of freelancers. Whether you're a seasoned professional or just starting your freelance journey, our platform connects you with clients seeking your unique skills. Take control of your work, set your own hours, and build your career on your terms.
+            Unlock your potential and join our thriving community of freelancers. Whether you are a seasoned professional or just starting your freelance journey, our platform connects you with clients seeking your unique skills. Take control of your work, set your own hours, and build your career on your terms.
             </p>
             <div className="mt-4">
                 <Link href={"/services"}>
