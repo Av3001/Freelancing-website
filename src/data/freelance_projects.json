@@ -1,38 +1,38 @@
 {
-    "testimonials":[
+    "services":[
         {
             "id":1,
             "name":"Sarah M.",
-            "type":"Web Development",
-            "description":"Working with Rust.co was an absolute pleasure! Their team of developers is highly skilled in Rust programming, and they delivered exceptional results on our web development project. The communication throughout the process was clear and timely. I would highly recommend Rust.co for any programming or development work.",
+            "type":"Graphic Design Excellence",
+            "description":"Our freelancing services offer a pool of highly skilled graphic designers ready to bring your visual ideas to life. Whether you need eye-catching logos, engaging social media graphics, or stunning website visuals, our designers have the expertise to create captivating and professional designs tailored to your brand.",
             "image":""    
         },
         {
             "id":2,
             "name":"Jason Hunt",
-            "type":"Mobile App Development",
-            "description":"Rust.co exceeded our expectations in every aspect of our mobile app development project. The team demonstrated a deep understanding of Rust programming, and their attention to detail was impressive. The app was delivered on time, and the post-launch support was outstanding. Rust.co is now our go-to choice for any future development needs.",
+            "type":"Web Development Mastery",
+            "description":"Navigate the digital landscape with confidence by tapping into our web development services. Our freelancers specialize in creating responsive and dynamic websites, ensuring an optimal user experience. From custom WordPress themes to e-commerce solutions, our web developers are proficient in the latest technologies to meet your online presence needs.",
             "image":""  
         },
         {
             "id":3,
             "name":"Emily Berendhoff",
-            "type":"Software Security Enhancement",
-            "description":"We engaged Rust.co to enhance the security of our software, and they delivered exceptional results. Their team's in-depth knowledge of Rust programming and cybersecurity was evident throughout the project. Rust.co not only addressed our security concerns but also provided valuable insights to strengthen our overall software architecture. I highly recommend their services for any security-related projects.",
+            "type":"Content Creation and Copywriting",
+            "description":"Engage your audience with compelling content crafted by our talented freelancers. Whether it's blog posts, articles, product descriptions, or marketing copy, our content creators have the expertise to deliver impactful and SEO-friendly content. Let our wordsmiths enhance your brand messaging and drive results.",
             "image":""  
         },
         {
             "id":4,
             "name":" Alex Bermone",
-            "type":"Data Analysis and Visualization",
-            "description":"Rust.co played a crucial role in our data analysis and visualization project. Their team demonstrated a high level of proficiency in Rust programming, and their solutions were both efficient and effective. The collaboration was seamless, and the final deliverables exceeded our expectations. If you're looking for a freelancing company with expertise in Rust, Rust.co is the way to go.",
+            "type":"Digital Marketing Strategies",
+            "description":"Boost your online visibility and reach your target audience with our digital marketing freelancers. From social media management and advertising to search engine optimization (SEO) and email marketing, our experts can devise and execute effective digital marketing strategies tailored to your business goals, driving growth and maximizing ROI.",
             "image":""  
         },
         {
             "id":5,
             "name":"Maria Tomm",
-            "type":"Blockchain Integration",
-            "description":"Rust programming and blockchain technology was evident from the start. The team provided innovative solutions, and the project was completed within the agreed-upon timeline. Rust.co is a reliable and professional freelancing company that I would recommend to anyone seeking top-notch technical solutions.",
+            "type":"Programming and Software Development",
+            "description":"Leverage the skills of our freelance programmers and software developers to bring your software ideas to fruition. Whether you need a custom application, mobile app development, or backend systems, our developers are proficient in a variety of programming languages and frameworks. Benefit from scalable and efficient solutions that align with your technical requirements and business objectives.",
             "image":""  
         }   
     ]
