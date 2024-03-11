@@ -4,6 +4,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import Testimonials from "@/components/Testimonials";
 import TagLine from "@/components/Tagline";
 import Developers from "@/components/Developers";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Testimonials/>
       <TagLine/>
       <Developers/>
+      <Footer/>
     </main>
   );
 }

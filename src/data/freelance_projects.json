@@ -5,35 +5,35 @@
             "name":"Sarah M.",
             "type":"Graphic Design Excellence",
             "description":"Our freelancing services offer a pool of highly skilled graphic designers ready to bring your visual ideas to life. Whether you need eye-catching logos, engaging social media graphics, or stunning website visuals, our designers have the expertise to create captivating and professional designs tailored to your brand.",
-            "image":""    
+            "image":"https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"    
         },
         {
             "id":2,
             "name":"Jason Hunt",
-            "type":"Web Development Mastery",
+            "type":"Web Development",
             "description":"Navigate the digital landscape with confidence by tapping into our web development services. Our freelancers specialize in creating responsive and dynamic websites, ensuring an optimal user experience. From custom WordPress themes to e-commerce solutions, our web developers are proficient in the latest technologies to meet your online presence needs.",
-            "image":""  
+            "image":"https://plus.unsplash.com/premium_photo-1685086785054-d047cdc0e525?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
         {
             "id":3,
             "name":"Emily Berendhoff",
-            "type":"Content Creation and Copywriting",
-            "description":"Engage your audience with compelling content crafted by our talented freelancers. Whether it's blog posts, articles, product descriptions, or marketing copy, our content creators have the expertise to deliver impactful and SEO-friendly content. Let our wordsmiths enhance your brand messaging and drive results.",
-            "image":""  
+            "type":"Application development",
+            "description":"Engage in dynamic software development with Rust.co, your gateway to innovative solutions. From crafting robust applications to executing cross-platform projects, our expert freelancers deliver excellence. Experience the pinnacle of tailored development services, where Rust.co transforms visions into seamless, high-quality digital experiences.",
+            "image":"https://images.unsplash.com/photo-1483058712412-4245e9b90334?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  
         },
         {
             "id":4,
             "name":" Alex Bermone",
-            "type":"Digital Marketing Strategies",
+            "type":"Digital Marketing ",
             "description":"Boost your online visibility and reach your target audience with our digital marketing freelancers. From social media management and advertising to search engine optimization (SEO) and email marketing, our experts can devise and execute effective digital marketing strategies tailored to your business goals, driving growth and maximizing ROI.",
-            "image":""  
+            "image":"https://plus.unsplash.com/premium_photo-1685208193257-6830c83dc6ce?q=80&w=1984&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  
         },
         {
             "id":5,
             "name":"Maria Tomm",
-            "type":"Programming and Software Development",
+            "type":"Mobile development",
             "description":"Leverage the skills of our freelance programmers and software developers to bring your software ideas to fruition. Whether you need a custom application, mobile app development, or backend systems, our developers are proficient in a variety of programming languages and frameworks. Benefit from scalable and efficient solutions that align with your technical requirements and business objectives.",
-            "image":""  
+            "image":"https://images.unsplash.com/photo-1548094891-c4ba474efd16?q=80&w=2045&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  
         }   
     ]
 }
