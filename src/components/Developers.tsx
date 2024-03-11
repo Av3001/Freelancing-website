@@ -1,8 +1,6 @@
 'use client'
 import { WavyBackground } from "./ui/wavy-background"
-import avn from "@/assets/Avn.jpg"
-import dhy from "@/assets/dhy.jpg"
-import mana from "@/assets/mana.jpg"
+
 import { AnimatedTooltip } from "./ui/animated-tooltip"
 const developers=[
 
@@ -10,20 +8,20 @@ const developers=[
     id:1,
     name:"Dharmendra Yadav",
     designation:"Web Developer ,UI/UX",
-    image:dhy
+    image:"/assets/dhy.jpg"
   },
   {
     id:2,
     name:"Avneet",
     designation:"Data Scientist ,Blockchain Developer",
-    image:avn
+    image:"/assets/Avn.jpg"
   },
   
   {
     id:3,
     name:"Manas Bhardwaj",
     designation:"Data Engineer ,Web Designer",
-    image:mana 
+    image:"/assets/mana.jpg" 
   }
 ] 
 
