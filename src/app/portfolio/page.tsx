@@ -1,7 +1,7 @@
-// pages/portfolio.js
+"use client"
 
+import { WavyBackground } from '@/components/ui/wavy-background';
 import React from 'react';
-import Head from 'next/head';
 
 const projects = [
     {
@@ -45,20 +45,20 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <div className='mt-32'>
-
-      <section className="max-w-3xl mx-auto p-4">
-        <h2 className=" mt-1 mb-6 text-4xl md:text-7xl font-bold bg-clip-text 
-            text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">Portfolio</h2>
-
+    <div className="relative h-full flex items-center justify-center w-full overflow-x-hidden">
+      <WavyBackground className="w-full max-w-7xl mx-auto flex flex-col h-full "> 
+        <h2 className=" mt-40 mb-6 text-4xl md:text-7xl font-bold bg-clip-text 
+            text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 text-center">
+        Our Portfolio
+        </h2>
         {projects.map((project) => (
-          <div key={project.id} className="bg-white rounded-md p-4 shadow-md mb-4">
-            <h3 className="text-xl font-semibold mb-2 text-black ">{project.companyName}</h3>
-            <h4 className='text-xl font-semibold mb-2 text-pink-400 border-solid rounded border-2 inline-flex border-sky-500 '>{project.project}</h4>
-            <p className='text-gray-800'>{project.description}</p>
+          <div key={project.id} className="bg-opacity-20 bg-white mb-5 bg-clip-padding backdrop-filter backdrop-blur-lg border border-solid border-white border-opacity-30 rounded-lg shadow-lg p-4">
+            <h3 className="text-xl font-semibold mb-2 text-white ">{project.companyName}</h3>
+            <h4 className='text-xl font-semibold mb-2 text-pink-400 border-solid '>{project.project}</h4>
+            <p className='text-white'>{project.description}</p>
           </div>
         ))}
-      </section>
+      </WavyBackground>
     </div>
   );
 };

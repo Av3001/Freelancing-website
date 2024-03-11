@@ -7,7 +7,8 @@ import servicedata from "@/data/freelance_projects.json"
 const page = () => {
   return (
     <div className="min-h-screen bg-black py-12 pt-36">
-      <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
+      <h1 className=" mt-1 text-4xl md:text-7xl font-bold bg-clip-text 
+            text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 text-center">
         Our Services
       </h1>
       <div className="flex flex-wrap justify-center"> 

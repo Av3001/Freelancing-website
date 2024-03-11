@@ -22,10 +22,11 @@ function ContactUs() {
       <div className="max-w-2xl mx-auto p-4 relative z-10">
         {' '}
         {/* Add relative and z-10 to bring content to the front */}
-        <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
+        <h1 className=" mt-1 mb-6 text-4xl md:text-7xl font-bold bg-clip-text 
+            text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 text-center">
           Contact Us
         </h1>
-        <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
+        <p className="text-neutral-300 max-w-lg mx-auto my-2 text-lg text-center">
         Questions or projects? Contact Rust.co now. Expert support for your freelance needs awaits.
         </p>
         <form onSubmit={handleSubmit} className="space-y-4 mt-4">
@@ -34,14 +35,14 @@ function ContactUs() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Your email address"
-            className="rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500 w-full p-4 bg-neutral-950 placeholder:text-neutral-700"
+            className="rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500 w-full p-4 bg-neutral-950 placeholder:text-neutral-400"
             required
           />
           <textarea
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             placeholder="Your message"
-            className="rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500 w-full p-4 bg-neutral-950 placeholder:text-neutral-700"
+            className="rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500 w-full p-4 bg-neutral-950 placeholder:text-neutral-400"
             rows={5}
             required
           ></textarea>
