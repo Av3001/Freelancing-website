@@ -2,6 +2,7 @@
 import { FaWhatsapp } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
 
 function Footer() {
     return (
@@ -67,6 +68,13 @@ function Footer() {
                 target="_blank"
               >
                 <FaInstagram size={30}/>
+              </a>
+              <a
+                href="https://github.com/Av3001"
+                className="hover:text-white transition-colors duration-300"
+                target="_blank"
+              >
+                <FaGithub size={30}/>
               </a>
             </div>
           </div>
