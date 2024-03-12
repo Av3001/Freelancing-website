@@ -38,6 +38,7 @@ const Testimonials = () => {
       <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8">
         <div className="w-full max-w-6xl">
             <InfiniteMovingCards
+              
                 items={testimonials}
                 direction="right"
                 speed="slow"

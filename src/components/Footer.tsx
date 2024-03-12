@@ -1,4 +1,8 @@
 
+import { FaWhatsapp } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+
 function Footer() {
     return (
       <footer className="bg-black text-gray-400 py-12">
@@ -48,21 +52,21 @@ function Footer() {
                 className="hover:text-white transition-colors duration-300"
                 target="_blank"
               >
-                Whatsapp
+                <FaWhatsapp size={30}/>
               </a>
               <a
                 href="https://x.com/Avneet3001?t=ZhNj7-2tg2ObgtnZGPUP-A&s=08"
                 className="hover:text-white transition-colors duration-300"
                 target="_blank"
               >
-                X
+                <FaXTwitter size={30}/>
               </a>
               <a
                 href="https://www.instagram.com/_____avneet___?utm_source=qr&igsh=MW9rOTlvMHllOWN3Mw=="
                 className="hover:text-white transition-colors duration-300"
                 target="_blank"
               >
-                Instagram
+                <FaInstagram size={30}/>
               </a>
             </div>
           </div>

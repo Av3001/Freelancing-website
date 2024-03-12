@@ -7,20 +7,20 @@ const developers=[
   {
     id:1,
     name:"Dharmendra Yadav",
-    designation:"Web Developer ,UI/UX",
+    designation:"Data Analyst, Web Developer, Creative writer",
     image:"/assets/dhy.jpg"
   },
   {
     id:2,
     name:"Avneet",
-    designation:"Data Scientist ,Blockchain Developer",
+    designation:"Data Scientist, Blockchain Developer",
     image:"/assets/Avn.jpg"
   },
   
   {
     id:3,
     name:"Manas Bhardwaj",
-    designation:"Data Engineer ,Web Designer",
+    designation:"Data Engineer, Web Designer",
     image:"/assets/mana.jpg" 
   }
 ] 
