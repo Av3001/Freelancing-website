@@ -1,6 +1,12 @@
 const nodemailer=require("nodemailer")
 import { NextResponse } from "next/server";
 
+export const corsHeaders = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+  "Access-Control-Allow-Headers": "Content-Type, Authorization",
+};
+
 const transporter = nodemailer.createTransport({
   host: "smtp.gmail.com",
   service:"gmail",
@@ -29,9 +35,9 @@ export async function POST(req:Request) {
   try {
     const {email,message} =await req.json();    
     main(email,message);
-    return NextResponse.json("message sent successfully",{status:200})
+    return NextResponse.json("message sent successfully",{status:200,headers:corsHeaders},)
   } catch (error) {
     console.log("[SERVERS_POST]",error);
-    return new NextResponse("Internal Error",{status:500})
+    return new NextResponse("Internal Error",{status:500,headers:corsHeaders})
   }
 }
