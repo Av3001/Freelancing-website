@@ -1,12 +1,6 @@
 const nodemailer=require("nodemailer")
 import { NextResponse,NextRequest } from "next/server";
 
-export const corsHeaders = {
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
-  "Access-Control-Allow-Headers": "Content-Type, Authorization",
-};
-
 const transporter = nodemailer.createTransport({
   host: "smtp.gmail.com",
   service:"gmail",
@@ -31,7 +25,17 @@ async function main(address:string,message:string) {
   
 }
 
-
+export async function OPTIONS(request: Request) {
+  const corsHeaders = {
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+  }
+  return new Response(null, {
+    status: 204,
+    headers:corsHeaders
+  });
+}
 
 export async function POST(req:NextRequest) {
   try {
