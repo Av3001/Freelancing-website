@@ -26,15 +26,11 @@ async function main(address:string,message:string) {
 }
 
 export async function OPTIONS(req: Request) {
-  const corsHeaders = {
-    'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
-    'Access-Control-Allow-Headers': 'Content-Type, Authorization',
-  }
+ 
   try {
     const {email,message} =await req.json();    
     main(email,message);
-    return NextResponse.json("message sent successfully",{status:200,headers:corsHeaders})
+    return NextResponse.json("message sent successfully",{status:200})
   } catch (error) {
     console.log("[SERVERS_POST]",error);
     return new NextResponse("Internal Error",{status:500})
