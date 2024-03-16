@@ -1,4 +1,5 @@
 const nodemailer=require("nodemailer")
+
 import { NextResponse,NextRequest } from "next/server";
 
 const transporter = nodemailer.createTransport({
@@ -25,20 +26,9 @@ async function main(address:string,message:string) {
   
 }
 
-export async function OPTIONS(req: Request) {
- 
-  try {
-    const {email,message} =await req.json();    
-    main(email,message);
-    return NextResponse.json("message sent successfully",{status:200})
-  } catch (error) {
-    console.log("[SERVERS_POST]",error);
-    return new NextResponse("Internal Error",{status:500})
-  }
-  
-}
 
-export async function POST(req:NextRequest) {
+
+export async function POST(req:Request) {
   try {
     const {email,message} =await req.json();    
     main(email,message);
