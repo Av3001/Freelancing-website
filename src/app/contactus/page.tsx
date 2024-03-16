@@ -22,7 +22,9 @@ function ContactUs() {
 
   const sendMail = async (email:string, message:string) => {
     try {
-      await axiosServices.post(`${process.env.APP_API_URL}/api/mails`, { email, message });
+      await axiosServices.post(`/api/mails`, { email, message });
+      
+      
       setMessage('');
       setEmail('');
       setEmailError('');
