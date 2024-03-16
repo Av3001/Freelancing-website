@@ -2,9 +2,8 @@
 import React, { FormEvent, useState,useEffect } from 'react';
 import Modal from 'react-modal';
 import { BackgroundBeams } from '@/components/ui/background-beams';
-import axios from 'axios';
 import { Button } from '@/components/ui/moving-border';
-
+import axiosServices from '@/utils/axiosUtil';
 
 
 function ContactUs() {
@@ -23,7 +22,7 @@ function ContactUs() {
 
   const sendMail = async (email:string, message:string) => {
     try {
-      await axios.post('/api/mails', { email, message });
+      await axiosServices.post(`${process.env.APP_API_URL}/api/mails`, { email, message });
       setMessage('');
       setEmail('');
       setEmailError('');
