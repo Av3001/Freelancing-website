@@ -33,7 +33,9 @@ export async function POST(req:Request) {
   try {
     const {email,message} =await req.json();    
     main(email,message);
-    console.log(email,mes);
+    console.log("ahd");
+    
+    console.log(email,message);
     
     return NextResponse.json("message sent successfully",{status:200})
   } catch (error) {
