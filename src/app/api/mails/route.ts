@@ -23,6 +23,7 @@ async function main(address:string,message:string) {
     text: `Customer mail id is ----->\n${address}\n
     ${message}`, // plain text body
   });
+  console.log("Message sent: %s", info.messageId);
   
 }
 
@@ -32,7 +33,7 @@ export async function POST(req:Request) {
   try {
     const {email,message} =await req.json();    
     main(email,message);
-    console.log(email,message);
+    console.log(email,mes);
     
     return NextResponse.json("message sent successfully",{status:200})
   } catch (error) {
