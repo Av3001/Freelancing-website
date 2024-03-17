@@ -1,6 +1,6 @@
 const nodemailer=require("nodemailer")
 
-import { NextResponse,NextRequest } from "next/server";
+import { NextResponse } from "next/server";
 
 const transporter = nodemailer.createTransport({
   host: "smtp.gmail.com",

@@ -22,7 +22,7 @@ function ContactUs() {
 
   const sendMail = async (email:string, message:string) => {
     try {
-      await axiosServices.post(`/api/mails`, { email, message });
+      await axiosServices.post(`/api/mails`, { email:email, message :message});
       
       
       setMessage('');
@@ -109,7 +109,7 @@ function ContactUs() {
         onRequestClose={closeModal}
         contentLabel="Mail Sent Successfully"
         className="modal-content text-center text-2xl font-bold "
-        
+        ariaHideApp={false}
         style={{
           overlay:{  
             top:"50%",
