@@ -1,4 +1,3 @@
-"use client"
 
 import { WavyBackground } from '@/components/ui/wavy-background';
 import Image from 'next/image';
