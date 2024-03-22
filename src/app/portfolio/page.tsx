@@ -58,14 +58,14 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <div className="relative h-full flex items-center justify-center w-full overflow-x-hidden">
+    <div className="relative h-full flex items-center justify-center w-full overflow-x-hidden bg-black">
       <WavyBackground className="w-full max-w-7xl mx-auto flex flex-col h-full "> 
         <h2 className=" mt-40 mb-6 text-4xl md:text-7xl font-bold bg-clip-text 
             text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 text-center">
         Our Portfolio
         </h2>
         {projects.map((project) => (
-          <div key={project.id} className="bg-opacity-20 bg-white mb-5 bg-clip-padding backdrop-filter backdrop-blur-lg border border-solid border-white border-opacity-30 rounded-lg shadow-lg p-4">
+          <div key={project.id} className="bg-opacity-20 bg-transparent mb-5 bg-clip-padding backdrop-filter backdrop-blur-lg border border-solid border-white border-opacity-30 rounded-lg shadow-lg p-4">
             {project.id===1 &&<Image src={project.image} alt="" width={125} height={125} className='w-auto h-auto'/>}
             <h3 className="text-xl font-semibold mb-2 text-white ">{project.companyName}</h3>
             <h4 className='text-xl font-semibold mb-2 text-pink-400 border-solid '>{project.project}</h4>

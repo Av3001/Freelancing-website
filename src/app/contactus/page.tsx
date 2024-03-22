@@ -80,7 +80,7 @@ function ContactUs() {
               setEmailError('');
             }}
             placeholder="Your email address"
-            className={`rounded-lg border ${
+            className={`rounded-lg border text-white ${
               emailError ? 'border-red-500' : 'border-neutral-800'
             } focus:ring-2 focus:ring-teal-500 w-full p-4 bg-neutral-950 placeholder:text-neutral-400`}
             required
@@ -90,7 +90,7 @@ function ContactUs() {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             placeholder="Your message"
-            className="rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500 w-full p-4 bg-neutral-950 placeholder:text-neutral-400"
+            className="rounded-lg border text-white border-neutral-800 focus:ring-2 focus:ring-teal-500 w-full p-4 bg-neutral-950 placeholder:text-neutral-400"
             rows={5}
             required
           ></textarea>
