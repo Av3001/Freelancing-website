@@ -26,7 +26,7 @@ const FeaturedServices = () => {
                     overflow-hidden h-full max-w-sm">
                         <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
                             <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">{services.name}</p>
-                            <p className="mt-2 rounded border border-t-4 border-b-4 border-l-4 border-r-4
+                            <p className="mt-2 text-white rounded border border-t-4 border-b-4 border-l-4 border-r-4
                             ">{services.type}</p>
                             <p className="mt-4 text-sm text-neutral-600 dark:text-neutral-400 flex-grow">{services.description}</p>
                             
